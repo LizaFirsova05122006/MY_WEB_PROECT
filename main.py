@@ -7,12 +7,12 @@ from data.theaters import Theater
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
-
+# Главная страница
 @app.route("/")
 def home():
     return render_template("home.html")
 
-
+# Далее страницы регионов
 @app.route("/Altai_Territory")
 def Altai_Territory():
     return render_template("Altai_Territory.html")
@@ -457,14 +457,14 @@ def Yamalo_Nenets_JSC():
 def Yaroslavl_Region():
     return render_template("Yaroslavl_Region.html")
 
-
+# Страница Театров
 @app.route("/Theaters_of_the_RF")
 def Theaters_of_the_RF():
     session = db_session.create_session()
     theater = session.query(Theater).all()
     return render_template("Theaters_of_the_RF.html", theater=theater)
 
-
+# Страница кинотеатров
 @app.route("/Cinema_RF")
 def Cinema_RF():
     session = db_session.create_session()
