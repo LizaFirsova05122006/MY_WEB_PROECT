@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Республика Мордовия</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A00b8d216d41043f0b578e39b1aceaa73bcb26b25ff6367222c4cdcbbc5d44d78&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Мордовия отличается от многих других регионов особенно богатой культурой и многовековой историей мордовского народа</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/saransk/" class="nubex1">Саранск</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Республику Мордовия:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Познакомиться с самобытной культурой мордовского народа</h3></div>
+        <div style="text-indent:35px;"><h3>2)Попробовать пачи</h3></div>
+        <div style="text-indent:35px;"><h3>3)Искренне восхититься красотой, чистотой и уютом Саранска</h3></div>
+        <div style="text-indent:35px;"><h3>4)Узнать кто такие «огаревцы» и найти 10 отличий между столичным и местным МГУ</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/231.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/232.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/233.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/234.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div style="float: right;">
+    <form class="login_form_1">
+        <h1>"Театры РФ"</h1>
+    </form>
+</div>
+{% for item in theater %}
+        <div>
+            <form action="" method="post">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Область</th>
+                        <th scope="col">Город</th>
+                        <th scope="col">Адресс</th>
+                        <th scope="col">Название</th>
+                        <th scope="col">Год основания</th>
+                        <th scope="col">Директор</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ item.region_Th.title }}</td>
+                        <td>{{ item.city.title }}</td>
+                        <td>{{ item.adress }}</td>
+                        <td>{{ item.title }}</td>
+                        <td>{{ item.y_foundation }}</td>
+                        <td>{{ item.director.surname }} {{ item.director.name }} {{ item.director.s_name }}</td>
+
+                    </tr>
+                </tbody>
+                </table>
+            </form>
+        </div>
+    {% endfor %}
+{% endblock %}

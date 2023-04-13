@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Архангельская область</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad33ba92b3605075355bed1f8e078340633124465e7ef40d27eab0d345a91dc34&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_1">
+        <h1>"Открытый Север"</h1>
+    </form>
+</div>
+<div style="float: right;">
+    <form class="login_form_3">
+        <div style="text-indent:35px;"><p><em><h2>Архангельская область просто огромна, если идти пешком с юга ее на север, то займет этот путь почти три недели.</h2></em></p></div>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/arkhangelsk/" class="nubex1">Архангельск</a>
+<a style="float: left;" href="https://wikiway.com/russia/severodvinsk/" class="nubex1">Северодвинск</a>
+<a style="float: left;" href="https://tur-ray.ru/kotlas-attractions.html" class="nubex1">Котлас</a>
+<div style="float: left;">
+    <form class="login_form_4">
+        <h1>Причины посетить Архангельскую область:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Посетить крупнейший в России музеев под открытым небом «Малые Корелы»</h3></div>
+        <div style="text-indent:35px;"><h3>2)Отправиться к оленеводам и приобщиться к жизни кочевников</h3></div>
+        <div style="text-indent:35px;"><h3>3)Совершить прогулку по ледяному царству пинежских пещер</h3></div>
+        <div style="text-indent:35px;"><h3>4)Пожить в северной избе в одной из живописных деревень</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/11.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/12.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/13.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/14.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

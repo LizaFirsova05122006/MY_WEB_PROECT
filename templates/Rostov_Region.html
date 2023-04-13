@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Ростовская область</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A77eabf33c38b0487d11ca41071d36741c19a6c670f7fbd5ed8f5881e37bfe5f2&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Ростовская область – один из самых жарких регионов России</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/rostov-na-donu/" class="nubex1">Ростов-на-Дону</a>
+<a style="float: left;" href="https://wikiway.com/russia/taganrog/" class="nubex1">Таганрог</a>
+<a style="float: left;" href="https://tur-ray.ru/bataysk-attractions.html" class="nubex1">Батайск</a>
+<a style="float: left;" href="https://wikiway.com/russia/volgodonsk/" class="nubex1">Волгодонск</a>
+<a style="float: left;" href="https://wikiway.com/russia/novocherkassk/" class="nubex1">Новочеркасск</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Новошахтинск" class="nubex1">Новошахтинск</a>
+<a style="float: left;" href="https://tur-ray.ru/shahty-attractions.html" class="nubex1">Шахты</a>
+<a style="float: left;" href="https://tur-ray.ru/azov-attractions.html" class="nubex1">Азов</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Гуково" class="nubex1">Гуково</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Донецк_(Ростовская_область)" class="nubex1">Донецк</a>
+<a style="float: left;" href="https://tur-ray.ru/kamensk-shahtinskiy-attractions.html" class="nubex1">Каменск-Шахтинский</a>
+<a style="float: left;" href="https://tur-ray.ru/salsk-attractions.html" class="nubex1">Сальск</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Ростовскую область:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Познакомиться с традициями донского казачества</h3></div>
+        <div style="text-indent:35px;"><h3>2)Отведать донской ухи</h3></div>
+        <div style="text-indent:35px;"><h3>3)Ощутить вкус и аромат уникальных сортов винограда в Долине Дона</h3></div>
+        <div style="text-indent:35px;"><h3>4)Ощутить мощь Тихого Дона</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/255.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/256.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/257.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/258.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

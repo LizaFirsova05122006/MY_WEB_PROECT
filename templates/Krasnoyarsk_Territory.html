@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Красноярский край</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A25e83512e1e99433b59381cdd3e10e5a3ee7188f16e4ecc9c0b35de771befa9b&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Красноярский край – прекрасный регион, богатый удивительной природой, растениями, животными.</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/krasnoyarsk/" class="nubex1">Красноярск</a>
+<a style="float: left;" href="https://tur-ray.ru/achinsk-attractions.html" class="nubex1">Ачинск</a>
+<a style="float: left;" href="https://wikiway.com/russia/norilsk/" class="nubex1">Норильск</a>
+<a style="float: left;" href="https://tur-ray.ru/zheleznogorsk-attractions.html" class="nubex1">Железногорск</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Зеленогорск_(Красноярский_край)" class="nubex1">Зеленогорск</a>
+<a style="float: left;" href="https://tur-ray.ru/kansk-attractions.html" class="nubex1">Канск</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Лесосибирск" class="nubex1">Лесосибирск</a>
+<a style="float: left;" href="https://tur-ray.ru/minusinsk-attractions.html" class="nubex1">Минусинск</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Назарово_(Красноярский_край)" class="nubex1">Назарово</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Красноярский край:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Совершить круиз по одной из самых полноводных рек в мире</h3></div>
+        <div style="text-indent:35px;"><h3>2)Возможность принять участие в уникальном этнографическом маршруте «Великое Саянское кольцо»</h3></div>
+        <div style="text-indent:35px;"><h3>3)Уникальная возможность из Красноярска добраться до полярного круга и Северного полюса</h3></div>
+        <div style="text-indent:35px;"><h3>4)Находясь в городе можно совместить разные виды отдыха</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/103.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/104.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/105.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/106.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

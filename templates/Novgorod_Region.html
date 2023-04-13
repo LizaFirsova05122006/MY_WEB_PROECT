@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Новгородская область</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af27b873c13c77b8c517eae0fc0ca092595547f924e549d03c6390f26e6560a4a&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Уникальность Новгородской области состоит в том, что она обладает огромным культурным наследием – здесь насчитывается 4701 объект истории и культуры</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/velikiy-novgorod/" class="nubex1">Великий Новгород</a>
+<a style="float: left;" href="https://tur-ray.ru/borovichi-attractions.html" class="nubex1">Боровичи</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Новгородскую область:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Великий Новгород – Родина России</h3></div>
+        <div style="text-indent:35px;"><h3>2)Великий Новгород – Ганзейский город</h3></div>
+        <div style="text-indent:35px;"><h3>3)Великий Новгород и уникальные экспозиции</h3></div>
+        <div style="text-indent:35px;"><h3>4)Тем, кто интересуется русской литературой и творчеством Ф.М. Достоевского</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/151.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/152.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/153.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/154.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

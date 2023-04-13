@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Ставропольский край</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A52ca1c9da72f47a14d7e6b0c3b64f6889c159107579347e1d219b2b19680dc50&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Ставропольский край – это целая россыпь блестящих курортов</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/stavropol/" class="nubex1">Ставрополь</a>
+<a style="float: left;" href="https://wikiway.com/russia/essentuki/" class="nubex1">Ессентуки</a>
+<a style="float: left;" href="https://wikiway.com/russia/kislovodsk/" class="nubex1">Кисловодск</a>
+<a style="float: left;" href="https://tur-ray.ru/nevinnomyssk-attractions.html" class="nubex1">Невинномысск</a>
+<a style="float: left;" href="https://wikiway.com/russia/pyatigorsk/" class="nubex1">Пятигорск</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Будённовск" class="nubex1">Буденновск</a>
+<a style="float: left;" href="https://tur-ray.ru/georgievsk-attractions.html" class="nubex1">Георгиевск</a>
+<a style="float: left;" href="https://wikiway.com/russia/mineralnye-vody/" class="nubex1">Минеральные Воды</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Михайловск_(Ставропольский_край)" class="nubex1">Михайловск</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Ставропольский край:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Прогуляться по «лермонтовским местам» Кавказских Минеральных Вод</h3></div>
+        <div style="text-indent:35px;"><h3>2)Побывать на Родине двух нобелевских лауреатов – писателя, драматурга, и публициста А.И. Солженицына и первого президента СССР М.Г. Горбачева</h3></div>
+        <div style="text-indent:35px;"><h3>3)Стать участником широкомасштабного открытия курортного сезона</h3></div>
+        <div style="text-indent:35px;"><h3>4)Посетить Пятигорскую телебашню</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/291.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/292.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/293.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/294.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

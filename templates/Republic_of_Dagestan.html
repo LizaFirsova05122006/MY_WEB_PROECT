@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Республика Дагестан</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae8250375b813440461f2e9ee40a1f122fa7a770af982015ab5f63f75975a59d0&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Республика Дагестан – самый южный регион России и крупнейший среди семи субъектов Северо-Кавказского федерального округа</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/makhachkala/" class="nubex1">Махачкала</a>
+<a style="float: left;" href="https://wikiway.com/russia/derbent/" class="nubex1">Дербент</a>
+<a style="float: left;" href="https://wikiway.com/russia/kaspiysk/" class="nubex1">Каспийск</a>
+<a style="float: left;" href="https://wikiway.com/russia/khasavyurt/" class="nubex1">Хасавюрт</a>
+<a style="float: left;" href="https://wikiway.com/russia/buynaksk/" class="nubex1">Буйнакск</a>
+<a style="float: left;" href="https://tur-ray.ru/izberbash-attractions.html" class="nubex1">Избербаш</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Республику Дагестан:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Горы</h3></div>
+        <div style="text-indent:35px;"><h3>2)Каспийское море</h3></div>
+        <div style="text-indent:35px;"><h3>3)Культура</h3></div>
+        <div style="text-indent:35px;"><h3>4)Гостеприимство / отсутствие большого турпотока</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/203.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/204.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/205.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/206.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}

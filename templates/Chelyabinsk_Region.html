@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a href="http://localhost:5000" class="nubex">Главная</a>
+<div align="center">
+    <form class="login_form">
+        <h1>Челябинская область</h1>
+    </form>
+</div>
+<p style="float: left;"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A282bcc46a32f5afdc1c82b938424321ac43c4701a3032fdfb2e2a08620caa303&amp;source=constructor" width="320" height="240" frameborder="0"></iframe></p>
+<div style="float: right;">
+    <form class="login_form_4">
+        <h1>Месторождение малахита</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form">
+        <h1>Города, которые здесь находятся:</h1>
+    </form>
+</div>
+<a style="float: left;" href="https://wikiway.com/russia/chelyabinsk/" class="nubex1">Челябинск</a>
+<a style="float: left;" href="https://wikiway.com/russia/magnitogorsk/" class="nubex1">Магнитогорск</a>
+<a style="float: left;" href="https://tur-ray.ru/dostoprimechatelnosti-zlatousta.html" class="nubex1">Златоуст</a>
+<a style="float: left;" href="https://tur-ray.ru/kopeysk-attractions.html" class="nubex1">Копейск</a>
+<a style="float: left;" href="https://wikiway.com/russia/miass/" class="nubex1">Миасс</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Озёрск_(Челябинская_область)" class="nubex1">Озерск</a>
+<a style="float: left;" href="https://ru.wikipedia.org/wiki/Троицк_(Москва)" class="nubex1">Троицк</a>
+<div style="float: left;">
+    <form class="login_form_6">
+        <h1>Причины посетить Челябинскую область:</h1>
+    </form>
+</div>
+<div style="float: left;">
+    <form class="login_form_2">
+        <div style="text-indent:35px;"><h3>1)Посетить уникальные туристические объекты</h3></div>
+        <div style="text-indent:35px;"><h3>2)Увидеть и прикоснуться к Челябинскому метеориту</h3></div>
+        <div style="text-indent:35px;"><h3>3)Покататься на лыжах по мягким склонам Уральских гор</h3></div>
+        <div style="text-indent:35px;"><h3>4)Пройтись по пешеходной улице Кировке</h3></div>
+    </form>
+</div>
+
+<div style="float: left;" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                  <img src="/static/img/335.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/336.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="/static/img/337.jpg" alt="Third slide">
+                                </div>
+                                  <div class="carousel-item">
+                                  <img src="/static/img/338.jpg" alt="Fourth slide">
+                                </div>
+                              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </div>
+{% endblock %}
