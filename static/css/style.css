@@ -1,0 +1,125 @@
+form.login_form {
+    color: #000000;
+    max-width: 890px;
+    background-color: #E0FFFF;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form.login_form_1 {
+    color: #000000;
+    max-width: 890px;
+    background-color: #7FFFD4;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+}
+
+form.login_form_2 {
+    color: #000000;
+    max-width: 890px;
+    background-color: #BDFFFF;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+}
+
+form.login_form_3 {
+    color: #000000;
+    max-width: 750px;
+    background-color: #BDFFFF;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+}
+
+form.login_form_4 {
+    color: #000000;
+    max-width: 750px;
+    background-color: #83B9FF;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+}
+
+form.login_form_5 {
+    color: #000000;
+    max-width: 750px;
+    background-color: #A9FFDE;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+}
+
+form.login_form_6 {
+    color: #000000;
+    max-width: 890px;
+    background-color: #A9FFDE;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a.nubex {
+color: #191970;
+user-select: none; /* Убираем текстовое выделение */
+text-decoration: none;	/* Убираем подчеркивание */
+outline: none; /* Убираем контур вокруг ссылки */
+background-color: #AFEEEE; /* Цвет фона */
+width: 20%; /* Установите ширину, если это необходимо */
+padding: 1em 2em; /* Отступ от текста до рамки */
+display: block; /* Сделайте так, чтобы кнопки располагались друг под другом */
+}
+a.nubex:active {
+background-color: #1E90FF; /* Цвет кнопки при нажатии */
+}
+a.nubex:hover {
+background-color: #1E90FF; /* Цвет кнопки при наведении курсора */
+}
+
+a.nubex1 {
+color: #191970;
+user-select: none; /* Убираем текстовое выделение */
+text-decoration: none;	/* Убираем подчеркивание */
+outline: none; /* Убираем контур вокруг ссылки */
+background-color: #93D0FA; /* Цвет фона */
+width: 20%; /* Установите ширину, если это необходимо */
+padding: 1em 2em; /* Отступ от текста до рамки */
+}
+a.nubex1:active {
+background-color: #0197FF; /* Цвет кнопки при нажатии */
+}
+a.nubex1:hover {
+background-color: #0197FF; /* Цвет кнопки при наведении курсора */
+}
+
+body {
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #9AFCD9;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+	background: #00FFFF
+}
+
