@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from waitress import serve
 from data import db_session
 from data.movie import Movie
 from data.theaters import Theater
@@ -474,4 +473,4 @@ def Cinema_RF():
 
 if __name__ == '__main__':
     db_session.global_init('db/tourism.db')
-    serve(app, host='0.0.0.0', port=5000)
+    app.run()
